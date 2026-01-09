@@ -1603,6 +1603,105 @@ body {
     color: #000;
     box-shadow: 0 0 14px #00ffff;
 }
+/* mobile friendly */
+@media (max-width: 576px) {
+
+  /* Section padding */
+  .projects {
+    padding: 30px 0;
+  }
+
+  /* Title */
+  .projects .title {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+
+  /* Card */
+  .project-card {
+    width: 92%;
+    height: auto;
+    padding: 16px;
+  }
+
+  /* Image */
+  .project-card img {
+    height: 160px;
+  }
+
+  /* Title */
+  .project-card h3 {
+    font-size: 1rem;
+    min-height: auto;
+  }
+
+  /* Description */
+  .project-details p {
+    font-size: 0.85rem;
+    line-height: 1.45;
+  }
+
+  /* Tech stack icons */
+  .tech-stack i {
+    font-size: 0.9rem;
+  }
+
+  /* Action icons */
+  .icon-action {
+    width: 38px;
+    height: 38px;
+    font-size: 1.15rem;
+  }
+
+  /* Modal */
+  .modal-content {
+    width: 94%;
+    padding: 18px;
+  }
+
+  .modal-image-wrapper {
+    height: 220px;
+  }
+
+  #modalTitle {
+    font-size: 1.1rem;
+  }
+
+  #modalDesc {
+    font-size: 0.85rem;
+  }
+
+  /* Navigation arrows */
+  .nav-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 1.3rem;
+  }
+
+  .close-btn {
+    font-size: 1.6rem;
+  }
+}
+/* medium mobile */
+@media (max-width: 768px) {
+
+  .project-card {
+    width: 320px;
+    height: auto;
+  }
+
+  .modal-image-wrapper {
+    height: 260px;
+  }
+
+  #modalTitle {
+    font-size: 1.2rem;
+  }
+
+  #modalDesc {
+    font-size: 0.9rem;
+  }
+}
 
 /*******************************/
 /********* Contact CSS *********/
@@ -1975,5 +2074,4 @@ body {
         font-size: 16px;
     }
 }
-
 
